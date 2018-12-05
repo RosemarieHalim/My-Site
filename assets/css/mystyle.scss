@@ -1,0 +1,95 @@
+---
+---
+
+body,html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(241, 184, 184);
+}
+    
+h1{
+    font-family: 'Lobster', cursive;
+    width: 600px;
+    margin: 0 auto;
+}
+
+i{
+    font-size:30px;
+    color: white
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+}
+    
+.grey-copy {
+    color: white;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 300px;
+}
+
+ul{
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul.nav{
+    width: 300px;
+    display: block;
+    margin: 0 auto;  
+}
+
+ul > li {
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+
+figcaption{
+    text-align: center;
+    color:  white;
+}
+
+#content-wrapper{
+    height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
