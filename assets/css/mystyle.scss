@@ -37,12 +37,14 @@ img{
 
 ul{
     width: 500px;
+    text-align: center;
     display: block;
     margin: 0 auto;
 }
 
 ul.nav{
-    width: 500px;
+    width: 600px;
+    text-align: center;
     display: block;
     margin: 0 auto;  
 }
@@ -50,6 +52,7 @@ ul.nav{
 ul > li {
     display: inline;
     margin: 0 5px 0 5px;
+    text-align: center;
 }
 
 figcaption{
